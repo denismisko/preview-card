@@ -121,6 +121,8 @@
 			justify-content: center;
 			gap: 10px;
 
+			cursor: pointer;
+
 			color: $White;
 			font-weight: 700;
 			font-size: 16px;
@@ -130,6 +132,10 @@
 			width: 100%;
 			border-radius: 10px;
 			border: none;
+
+			&:hover {
+				background: $DarkestGreen;
+			}
 
 			@media screen and (max-width: 375px) {
 				margin-bottom: 20px;
